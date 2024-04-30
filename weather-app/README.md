@@ -5,9 +5,10 @@ This is a simple weather app built with React. It displays the current weather o
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
-   ```
+```bash
+git clone https://github.com/your-username/weather-app.git
+```
+
 2. Navigate to the project directory:
 ```bash
 cd weather-app
