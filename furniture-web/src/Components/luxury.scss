@@ -1,0 +1,142 @@
+.container {
+  padding-inline: 100px;
+  padding-block: 50px;
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 173px;
+      height: 33px;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 16px;
+
+      a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        font-size: 18px;
+
+        li {
+          list-style: none;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .button {
+        background-color: rgba(3, 165, 155, 1);
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        width: 194px;
+        height: 56px;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+
+    .text {
+        width: 440px;
+        height: 450px;
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 300;
+            
+            span {
+                color: rgba(3, 165, 155, 1);
+            }
+        }
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .button {
+            background-color: rgba(3, 165, 155, 1);
+            border: none;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            width: 194px;
+            height: 56px;
+            font-size: 18px;
+            font-weight: 400;
+            cursor: pointer;
+            position: relative;
+            bottom: -20px;
+        }
+    }
+  }
+
+  .trending {
+    h1 {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+
+        span {
+            color: rgba(3, 165, 155, 1);
+        }
+    }
+    .para {
+        text-align: center;
+    }
+    .sofa-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .sofa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 343px;
+            width: 608px;
+            background-color: rgba(248, 255, 255, 1);
+
+            .text {
+                a {
+                    position: relative;
+                    bottom: -50px;
+                }
+            }
+        }
+        .sofa-2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 343px;
+            width: 608px;
+            background-color: rgba(255, 252, 251, 1);
+
+            .text {
+                a {
+                    position: relative;
+                    bottom: -50px;
+                }
+            }
+        }
+    }
+  }
+
+}

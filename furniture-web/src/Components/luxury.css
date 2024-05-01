@@ -1,0 +1,121 @@
+.container {
+  padding-inline: 100px;
+  padding-block: 50px;
+}
+.container .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .navigation img {
+  width: 173px;
+  height: 33px;
+}
+.container .navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+}
+.container .navigation ul a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 18px;
+}
+.container .navigation ul a li {
+  list-style: none;
+  text-decoration: none;
+}
+.container .navigation .button {
+  background-color: rgb(3, 165, 155);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  width: 194px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.container .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+}
+.container .hero .text {
+  width: 440px;
+  height: 450px;
+}
+.container .hero .text h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.container .hero .text h1 {
+  font-size: 48px;
+  font-weight: 300;
+}
+.container .hero .text h1 span {
+  color: rgb(3, 165, 155);
+}
+.container .hero .text p {
+  font-weight: 400;
+  font-size: 20px;
+  font-weight: 300;
+}
+.container .hero .text .button {
+  background-color: rgb(3, 165, 155);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  width: 194px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  bottom: -20px;
+}
+.container .trending h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+}
+.container .trending h1 span {
+  color: rgb(3, 165, 155);
+}
+.container .trending .para {
+  text-align: center;
+}
+.container .trending .sofa-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .trending .sofa-container .sofa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 343px;
+  width: 608px;
+  background-color: rgb(248, 255, 255);
+}
+.container .trending .sofa-container .sofa .text a {
+  position: relative;
+  bottom: -50px;
+}
+.container .trending .sofa-container .sofa-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 343px;
+  width: 608px;
+  background-color: rgb(255, 252, 251);
+}
+.container .trending .sofa-container .sofa-2 .text a {
+  position: relative;
+  bottom: -50px;
+}/*# sourceMappingURL=luxury.css.map */
