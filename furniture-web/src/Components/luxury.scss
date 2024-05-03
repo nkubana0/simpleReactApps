@@ -32,16 +32,16 @@
     }
 
     .button {
-        background-color: rgba(3, 165, 155, 1);
-        border: none;
-        outline: none;
-        color: white;
-        border-radius: 24px;
-        width: 194px;
-        height: 56px;
-        font-size: 18px;
-        font-weight: 400;
-        cursor: pointer;
+      background-color: rgba(3, 165, 155, 1);
+      border: none;
+      outline: none;
+      color: white;
+      border-radius: 24px;
+      width: 194px;
+      height: 56px;
+      font-size: 18px;
+      font-weight: 400;
+      cursor: pointer;
     }
   }
 
@@ -52,91 +52,218 @@
     height: 80vh;
 
     .text {
-        width: 440px;
-        height: 450px;
-        h3 {
-            font-size: 20px;
-            font-weight: 700;
+      width: 440px;
+      height: 450px;
+      h3 {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      h1 {
+        font-size: 48px;
+        font-weight: 300;
+
+        span {
+          color: rgba(3, 165, 155, 1);
         }
-        h1 {
-            font-size: 48px;
-            font-weight: 300;
-            
-            span {
-                color: rgba(3, 165, 155, 1);
-            }
-        }
-        p {
-            font-weight: 400;
-            font-size: 20px;
-            font-weight: 300;
-        }
-        .button {
-            background-color: rgba(3, 165, 155, 1);
-            border: none;
-            outline: none;
-            color: white;
-            border-radius: 24px;
-            width: 194px;
-            height: 56px;
-            font-size: 18px;
-            font-weight: 400;
-            cursor: pointer;
-            position: relative;
-            bottom: -20px;
-        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 20px;
+        font-weight: 300;
+      }
+      .button {
+        background-color: rgba(3, 165, 155, 1);
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        width: 194px;
+        height: 56px;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+        position: relative;
+        bottom: -20px;
+      }
     }
   }
 
   .trending {
     h1 {
-        text-align: center;
+      text-align: center;
+      font-size: 48px;
+      font-weight: 400;
+
+      span {
+        color: rgba(3, 165, 155, 1);
+      }
+    }
+    .para {
+      text-align: center;
+    }
+    .sofa-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-block: 50px;
+
+      .sofa {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 343px;
+        width: 608px;
+        background-color: rgba(248, 255, 255, 1);
+
+        .text {
+          a {
+            position: relative;
+            bottom: -50px;
+            color: rgba(3, 165, 155, 1);
+          }
+        }
+      }
+      .sofa-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 343px;
+        width: 608px;
+        background-color: rgba(255, 252, 251, 1);
+
+        .text {
+          a {
+            position: relative;
+            bottom: -50px;
+            color: rgba(248, 124, 71, 1);
+          }
+        }
+      }
+    }
+  }
+
+  .choose-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+    .text-container {
+      h1 {
         font-size: 48px;
         font-weight: 400;
 
         span {
-            color: rgba(3, 165, 155, 1);
+          color: rgba(3, 165, 155, 1);
         }
+      }
+      p {
+        font-size: 18px;
+        font-weight: 300;
+      }
+
+      .choose-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
     }
-    .para {
-        text-align: center;
-    }
-    .sofa-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-
-        .sofa {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 343px;
-            width: 608px;
-            background-color: rgba(248, 255, 255, 1);
-
-            .text {
-                a {
-                    position: relative;
-                    bottom: -50px;
-                }
-            }
-        }
-        .sofa-2 {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            height: 343px;
-            width: 608px;
-            background-color: rgba(255, 252, 251, 1);
-
-            .text {
-                a {
-                    position: relative;
-                    bottom: -50px;
-                }
-            }
-        }
+    .img-container {
+      height: 561px;
+      margin-top: -180px;
+      .dots {
+        position: relative;
+        bottom: -114px;
+        z-index: 0;
+      }
+      .office {
+        position: relative;
+        left: 40px;
+        z-index: 1;
+      }
     }
   }
+  .inquiries {
+    margin-top: 200px;
+    border: 1px solid rgba(236, 236, 236, 1);
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 400;
+    }
+    p {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      color: rgba(133, 133, 133, 1);
+    }
 
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-block: 20px;
+      gap: 10px;
+
+      .input {
+        width: 1120px;
+        height: 64px;
+        border: 1px solid rgba(236, 236, 236, 1);
+        border-radius: 24px;
+        padding-left: 30px;
+        color: rgba(133, 133, 133, 1);
+        font-size: 17px;
+        font-weight: 100;
+      }
+      .input-2 {
+        width: 1120px;
+        height: 170px;
+        border: 1px solid rgba(236, 236, 236, 1);
+        border-radius: 24px;
+        padding-left: 30px;
+        color: rgba(133, 133, 133, 1);
+        font-size: 17px;
+        font-weight: 100;
+        text-align: left;
+      }
+      .submit {
+        width: 1150px;
+        height: 64px;
+        margin-top: 10px;
+        border-radius: 24px;
+        background-color: rgba(3, 165, 155, 1);
+        border: none;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+  .contact {
+    padding-block: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .contact-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid rgba(236, 236, 236, 1);
+      width: 384px;
+      height: 200px;
+      border-radius: 8px;
+
+      h4 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(133, 133, 133, 1);
+      }
+    }
+  }
 }

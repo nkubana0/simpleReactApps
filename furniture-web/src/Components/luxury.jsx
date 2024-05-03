@@ -15,6 +15,8 @@ import png_1_icon from "../Assets/pngwing 1.png";
 import png_2_icon from "../Assets/pngwing 2.png";
 import return_icon from "../Assets/return.svg";
 import truck_icon from "../Assets/truck.svg";
+import office_image from "../Assets/OFFICE.png";
+import email_icon from "../Assets/Group 3.png";
 
 const Luxury = () => {
   return (
@@ -80,6 +82,88 @@ const Luxury = () => {
               <img src={png_1_icon} alt="" />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="choose-us">
+        <div className="text-container">
+          <h1>
+            Why Choose <span>Us</span>
+          </h1>
+          <p>
+            Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+            velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+          </p>
+          <div className="choose-container">
+            <div className="choose">
+              <img src={truck_icon} alt="" />
+              <h4>Fast & Free Shipping</h4>
+              <p>
+                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                velit. Aliquam vulputate.
+              </p>
+            </div>
+            <div className="choose">
+              <img src={house_svg} alt="" />
+              <h4>Easy to Shop</h4>
+              <p>
+                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                velit. Aliquam vulputate.
+              </p>
+            </div>
+            <div className="choose">
+              <img src={circle_icon} alt="" />
+              <h4>24/7 Support</h4>
+              <p>
+                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                velit. Aliquam vulputate.
+              </p>
+            </div>
+            <div className="choose">
+              <img src={return_icon} alt="" />
+              <h4>Hassle Free Returns</h4>
+              <p>
+                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                velit. Aliquam vulputate.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="img-container">
+          <img src={dots_icon} alt="" className="dots" />
+          <img src={office_image} alt="" className="office" />
+        </div>
+      </div>
+      <div className="inquiries">
+        <h1>Do you have any inquiries</h1>
+        <p>Fill up form below, our team will get back soon</p>
+        <form action="#" className="form">
+          <input type="text" placeholder="Name" className="input" />
+          <input
+            type="text"
+            placeholder="example@gmail.com"
+            className="input"
+          />
+          <input type="text" placeholder="Phone" className="input" />
+          <input type="text" placeholder="Subject" className="input" />
+          <input type="text" placeholder="Your Message" className="input-2" />
+          <input type="submit" placeholder="Submit" className="submit" />
+        </form>
+      </div>
+      <div className="contact">
+        <div className="contact-card">
+          <img src={email_icon} alt="" />
+          <h4>Email Us</h4>
+          <p>no-reply@luxury.com</p>
+        </div>
+        <div className="contact-card">
+          <img src={call_icon} alt="" />
+          <h4>Call Us</h4>
+          <p>+250-791-902-159</p>
+        </div>
+        <div className="contact-card">
+          <img src={location_icon} alt="" />
+          <h4>Visit Us</h4>
+          <p>Kisimenti KG175 No.37 </p>
         </div>
       </div>
     </div>
