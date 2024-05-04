@@ -1,5 +1,6 @@
 import React from "react";
 import "./luxury.css";
+import Hamburger from "./hamburger";
 
 import second_chair from "../Assets/2ndchair.png";
 import call_icon from "../Assets/call.png";
@@ -21,6 +22,7 @@ import email_icon from "../Assets/Group 3.png";
 const Luxury = () => {
   return (
     <div className="container">
+      <Hamburger />
       <div className="navigation">
         <img src={luxury_icon} alt="logo" />
         <ul>

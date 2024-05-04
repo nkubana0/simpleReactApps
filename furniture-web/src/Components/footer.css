@@ -40,6 +40,31 @@
 }
 .footer .second p {
   color: rgb(255, 255, 255);
-  position: relative;
-  right: -515px;
+}
+
+/** media queries **/
+@media (max-width: 800px) {
+  .footer {
+    width: 100%;
+    font-size: 10px;
+  }
+  .footer .first {
+    width: 90%;
+    justify-content: space-around;
+  }
+  .footer .first .left {
+    width: 100%;
+  }
+  .footer .first .left p {
+    font-size: 15px;
+  }
+  .footer .first .right {
+    width: 100%;
+  }
+  .footer .first .right ul {
+    flex-direction: column;
+  }
+  .footer .first .right ul a {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=footer.css.map */
